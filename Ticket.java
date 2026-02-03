@@ -19,4 +19,12 @@ class Ticket {
     public String identify() {
         return "Ticket ID: " + ticketId;
     }
+
+    // Combine everything into one output string
+    public String fullDetails() {
+        return viewer.identify() + "\n" +
+               movie.identify() + "\n" +
+               identify() + "\n" +
+               "Total Price: P" + calculateTotal();
+    }
 }
