@@ -8,6 +8,10 @@ class Movie {
         this.title = title;
         this.price = price;
     }
-
-    
+    public double getPrice() {
+        return price;
+    }
+    public String identify() {
+        return "Movie: " + title + " (P" + price + ")";
+    }
 }
