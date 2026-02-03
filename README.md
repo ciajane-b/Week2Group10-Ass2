@@ -1,1 +1,5 @@
-# Week2Group10-Ass2
+Leader: Ciara Jane Barro
+
+Member:
+Aldrian Maure
+Santino Arevalo
