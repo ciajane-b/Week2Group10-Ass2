@@ -6,4 +6,8 @@ class Viewer {
         this.viewerId = viewerId;
         this.name = name;
     }
+    
+     public String identify() {
+        return "Viewer ID: " + viewerId + ", Name: " + name;
+    }
 }
