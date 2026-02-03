@@ -1,6 +1,5 @@
 class Ticket {
     public int ticketId;
-
     // Aggregation
     public Viewer viewer;
     // Composition
@@ -11,16 +10,12 @@ class Ticket {
         this.viewer = viewer;
         this.movie = movie;
     }
-    
     public double calculateTotal() {
         return movie.getPrice();
     }
-
     public String identify() {
         return "Ticket ID: " + ticketId;
     }
-
-    // Combine everything into one output string
     public String fullDetails() {
         return viewer.identify() + "\n" +
                movie.identify() + "\n" +
